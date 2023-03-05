@@ -5,17 +5,17 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "133273016"))
-    API_HASH = os.getenv("API_HASH", "68e791e61610028748b0a53ae86a661a12")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5912048119:AAHrcUjE38mYG3noFRw5B5GQosaSJ6Fa7-x1s")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
+    API_ID = int(os.getenv("API_ID", "9801686"))
+    API_HASH = os.getenv("API_HASH", "2d61caaa63b33b368a03da09e55d6023")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5863604045:AAHKypGzs08F7Nn1cz4c1gIufrTfBLjoYD4")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazyprincess")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKkBu09s73VLGQQnQZp81QLu_hvbfV9yEuhmccZdjyWtbbXB-m2ujGrZ8HY9RymfBfBDrrZqChCCLSXWhZ54D8FCVpkiAO1GI-c85ZDExvGUu_3g-QdoqL7Kf-K6tK4I-u8CmeNmQKXLO-jPS89BphFytogqFKYCNvv7Kw2WOlbcEzsijo5xFYFWmVsccKPGdgGL9xvWTB-51uH36joGzuBnT6TGMftMGmUK5DQQF5i6Lk2_0EknKBN5Q3YpP_JNiOl9PntcvYHPUkgecupU2m5DKi5TMwHgI5ohFMezIrHH0NNG63AHYf35UGSienCWbwG8Csn8VceLQMnXrKZcRbIy-McIY=")
 #   Channel id where your posts are stored.
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-100180838783308")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "lazydeveloperr")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "LazyDeveloper")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001520608811")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "LazyPrincess_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1371807165"))
+#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "S_u_m_m_uu")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001866140642")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hello {}, 
 
@@ -24,29 +24,29 @@ I am a simple Movie Search BOT.
 I can give movie links containing mDisk links.
 
 Just Type Movie name in pm or group 🦋**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "")
+    START_PHOTO = os.getenv("START_PHOTO", "https://i.ibb.co/TwZp4ng/file-219.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001765107260")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lazy:lazy@lzyxdev786.lpvunddl5.mongodb.net/eieokxk?redddltryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001782419622"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lazyprincesss:<summu3861>@cluster0.xrkdtjo.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001681708309"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "LazyDeveloper")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
     FORCE_SUB = os.getenv("FORCE_SUB", "True")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 120))
-    MDISK_API = os.getenv("MDISK_API", "W4VnYiwHUevmAutlFmkW")
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 600))
+    MDISK_API = os.getenv("MDISK_API", "MmaHyWUfTIyjgsEASWnZ")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
-ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, 
+ᴡʜᴏ have ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, 
 
-i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
+i will ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ  <a href='https://t.me/LazyDeveloperr'>LazyDeveloperr</a> 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ  <a href='https://t.me/S_u_m_m_uu'>S_u_m_m_uu</a> 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -108,7 +108,7 @@ https://terabox.com/
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
 
-👉 <a href='https://t.me/LazyDeveloperr'>LazyDeveloperr</a>
+👉 <a href='https://t.me/S_u_m_m_uu'>S_u_m_m_uu</a>
 
 """
 
